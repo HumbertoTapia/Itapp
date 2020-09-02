@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Menu extends AppCompatActivity {
+public class MenuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,12 @@ public class Menu extends AppCompatActivity {
 
     public void ingresarCalendario(View view) {
         Intent i = new Intent(this, Calendario.class );
+        startActivity(i);
+    }
+
+    //Metodo que llama a la activity Manual de Convivencia
+    public void ingresarManual(View view) {
+        Intent i = new Intent(this, ManualActivity.class );
         startActivity(i);
     }
 

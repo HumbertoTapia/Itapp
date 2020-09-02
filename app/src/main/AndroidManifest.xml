@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TipsEscolares"></activity>
+        <activity android:name=".PerfilActivity"></activity>
+        <activity android:name=".ManualActivity" />
+        <activity android:name=".TipsEscolares" />
         <activity android:name=".TipsFamilia" />
         <activity android:name=".TipAmbiente" />
         <activity android:name=".MenuTips" />
         <activity android:name=".Calendario" />
         <activity android:name=".Institucion" />
         <activity android:name=".Tips" />
-        <activity android:name=".Menu" />
+        <activity android:name=".MenuActivity" />
         <activity android:name=".Registro" />
         <activity android:name=".MainActivity">
             <intent-filter>
