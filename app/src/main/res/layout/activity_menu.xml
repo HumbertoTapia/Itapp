@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="5dp"
-            android:text="INSTITUCIÓN EDUCATIVA TÉCNICO AGROPECUARIA JOSÉ MARÍA HERNANDEZ"
+            android:text="INSTITUCIÓN EDUCATIVA TÉCNICO AGROPECUARIA JOSÉ MARÍA HERNÁNDEZ"
             android:textColor="#ffffff"
             android:textSize="15sp"
             android:textStyle="bold"
