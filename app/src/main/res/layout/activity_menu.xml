@@ -82,7 +82,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/manual"/>
+                    android:src="@drawable/manual2"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/tips"/>
+                    android:src="@drawable/tips2"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
