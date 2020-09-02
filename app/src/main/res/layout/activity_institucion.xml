@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Institucion"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:background="#7CB342"
+        >
+
+        <ImageView
+            android:id="@+id/imgView_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/visionbanner"
+            android:scaleType="centerCrop"/>
+
+        <!-- android:tint="#FCFAF9" -->
+
+
+
+
+ </com.google.android.material.appbar.AppBarLayout>
+
+<com.google.android.material.tabs.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tabLayout_id"
+    app:tabGravity="fill"
+    app:tabSelectedTextColor="#FDD835"
+    app:tabTextColor="#FFFFFF"
+    app:tabIndicatorColor="#FFB300"
+    android:background="#43A047">
+
+</com.google.android.material.tabs.TabLayout>
+
+ <androidx.viewpager.widget.ViewPager
+     android:id="@+id/viewPager_id"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+
+ </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

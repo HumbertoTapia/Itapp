@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObjetivoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/objetivos2"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OBJETIVO GENERAL"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desarrollar estrategias, que contribuyan a la formación integral del educando, la pertinencia con su entorno, promoviendo la productividad, el liderazgo, el emprendimiento y el espíritu agro-ambientalista a través de proyectos productivos e innovaciones pedagógicas, científicas y tecnológicas,  que permitan el mejoramiento de su calidad de vida y el desarrollo productivo de la región."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OBJETIVOS ESPECIFICOS"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Propiciar la formación integral de los estudiantes mediante procesos curriculares pertinentes al contexto, que potencialicen el desarrollo de valores, habilidades, actitudes, destrezas y competencias."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Implementar proyectos pedagógicos productivos incluyentes utilizando predios, infraestructura y equipo de la institución, generando así procesos de liderazgo, emprendimiento y fomento para el manejo de la economía y las finanzas  en los distintos miembros de la comunidad educativa."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Fomentar en la comunidad educativa la utilización racional y la conservación de los recursos naturales, mediante campañas de sensibilización y cuidado del medio ambiente. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Desarrollar alianzas estratégicas que permitan crecer en el campo intelectual  y en la innovación tecnológica que incentiven el sector agropecuario e industrial.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Fomentar acciones democráticas que incentiven el liderazgo ante el manejo de conflictos, que contribuyan a la solución efectiva y sostenible de procesos pacíficos en diversos escenarios de la vida. "/>
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

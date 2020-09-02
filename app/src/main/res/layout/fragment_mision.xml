@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MisionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/mision2"
+            android:layout_marginTop="-40dp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La Institución Educativa Técnica Agropecuaria “José María Hernández” de Pupiales - Nariño,  fortalece la formación integral de sus educandos, promoviendo el desarrollo cognitivo, desde la comprensión, el análisis, la ciencia, la cultura, la tecnología, el medio ambiente y la investigación en el campo, inculcando en ellos valores que favorezcan su convivencia, la democracia y el sentido social en pro de la construcción de su proyecto de vida, basado en el mejoramiento continuo y  el desarrollo humano."/>
+
+    </LinearLayout>
+</FrameLayout>

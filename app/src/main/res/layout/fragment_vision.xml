@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/vision4"
+            android:layout_marginTop="-40dp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="En el año 2018, la Institución Educativa Técnica Agropecuaria “José María Hernández” de Pupiales (N), será reconocida en el sector educativo por formar personas íntegras para una sociedad que requiere una educación dedicada a fortalecer las competencias, convivencia, paz  y democracia, respeto por los derechos humanos y demás valores, con alto nivel  académico y tecnológico que permita el acceso y permanencia en la educación superior de sus egresados y a la vez esperanza de nuestra sociedad." />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

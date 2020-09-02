@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/imgView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/visionbanner"
+        android:scaleType="centerCrop"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/id_imagen"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_vertical"
+            android:padding="15dp"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/id_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Las cosas se solucionan conversándolas"
+                android:textSize="16sp"
+                android:textColor="#00897B"/>
+            <TextView
+                android:id="@+id/id_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En un curso existen distintas personas, todas con distintos intereses, gustos y preocupaciones y por lo mismo, es importante que siempre haya comunicación, sobre todo al momento de tener problemas. Si no se hablan, y se dejan sin resolver, suelen acumularse y causar grandes conflictos más adelante."/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#AAA9A9"/>
+
+</LinearLayout>

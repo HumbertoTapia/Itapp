@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilosofiaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/filosofia2"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_filosofia_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somos una Institución de carácter agropecuario,  ubicada en una región donde predomina  el cultivo del campo, la ganadería, especies menores y especial  cuidado del medio ambiente, de tal manera que la línea de acción corresponde a desarrollar competencias en el área agropecuaria con apoyo tecnológico; enfocando los esfuerzos para que nuestros egresados sean personas profesionales, con valores y capaces de contribuir al desarrollo local, regional y nacional."
+
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
