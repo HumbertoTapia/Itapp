@@ -18,4 +18,9 @@ public class ManualActivity extends AppCompatActivity {
         Intent i = new Intent(this, PerfilActivity.class );
         startActivity(i);
     }
+
+    public void llamardiagnostico(View view) {
+        Intent i = new Intent(this, DiagnosticoActivity.class );
+        startActivity(i);
+    }
 }
