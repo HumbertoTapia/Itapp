@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EventoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/banner_eventos"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mask_banners"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="EVENTOS INSTITUCIONALES"
+                android:textColor="@color/blanco"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_ita" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="llamarEventosDetalle"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="130dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:src="@drawable/e1"
+                            android:scaleType="centerCrop"
+                            android:layout_height="150dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/mask_banners"
+                            android:gravity="bottom"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="CULTURAL"
+                            android:textColor="@color/blanco"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="04-sep-Viernes"
+                                android:textStyle="bold"
+                                android:textColor="#ffffff"
+                                android:gravity="center"
+                                android:textSize="16dp"
+                                android:background="#7CB342"
+                                />
+
+
+
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Generadores de paz"
+                            android:textSize="18dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_event_responsable"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Responsable:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Alcaldia"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_location"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ubicación:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Estadio municipal"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_hora"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hora:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="8:00 a.m."
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="130dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:src="@drawable/e2"
+                            android:scaleType="centerCrop"
+                            android:layout_height="150dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/mask_banners"
+                            android:gravity="bottom"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="ACADEMICA"
+                            android:textColor="@color/blanco"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="21-oct-lunes"
+                                android:textStyle="bold"
+                                android:textColor="#ffffff"
+                                android:gravity="center"
+                                android:textSize="16dp"
+                                android:background="#FFB300"
+                                />
+
+
+
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Prevención "
+                            android:textSize="18dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_event_responsable"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Responsable:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Policia N"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_location"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ubicación:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Institucion ITA"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_hora"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hora:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="10:30 a.m."
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="130dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:src="@drawable/e3"
+                            android:scaleType="centerCrop"
+                            android:layout_height="150dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/mask_banners"
+                            android:gravity="bottom"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="DEPORTIVO"
+                            android:textColor="@color/blanco"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="04-sep-mierc"
+
+                                android:textStyle="bold"
+                                android:textColor="#ffffff"
+                                android:gravity="center"
+                                android:textSize="16dp"
+                                android:background="#7CB342"
+                                />
+
+
+
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cyberbullyin"
+                            android:textSize="18dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_event_responsable"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Responsable:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Udenar"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_location"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ubicación:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="ITA"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_hora"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hora:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="8:00 a.m."
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="130dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:src="@drawable/e3"
+                            android:scaleType="centerCrop"
+                            android:layout_height="150dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/mask_banners"
+                            android:gravity="bottom"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="ACADEMICO"
+                            android:textColor="@color/blanco"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="04-sep-Viernes"
+                                android:textStyle="bold"
+                                android:textColor="#ffffff"
+                                android:gravity="center"
+                                android:textSize="16dp"
+                                android:background="#FFB300"
+                                />
+
+
+
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Generadores de paz"
+                            android:textSize="18dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_event_responsable"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Responsable:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Alcaldia"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_location"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ubicación:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Estadio municipal"
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/ic_evento_hora"
+                                android:layout_margin="5dp"
+                                android:layout_gravity="center"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hora:"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="8:00 a.m."
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"/>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+</LinearLayout>

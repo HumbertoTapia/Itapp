@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PadreActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/padredefamilia"
+                    android:layout_marginLeft="25dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PADRE DE FAMILIA"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:textColor="#151515"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-15dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF9800"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bannerperfil"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#DDDFDA">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="La familia es la piedra angular de toda sociedad y son los primeros responsables de la educación de los hijos, hasta la mayoría de edad o hasta cuando ocurra cualquier otra clase o forma de emancipación,  según los principios y fundamentos de convivencia del estudiante "
+                        android:padding="20dp"
+                        />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_padre1"
+                            android:background="@drawable/mask_circulo_padre"
+                            android:padding="10dp"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:background="@drawable/mask_rectangulo_padre">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="1. Participar en la junta de padres de familia,  consejo de padres, comisiones de evaluación, consejo directivo, restaurante escolar y otros"
+                                    android:padding="10dp"
+                                    android:textColor="#ffffff"
+
+                                    />
+                            </LinearLayout>
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_icon2"
+                            android:background="@drawable/mask_circulo_padre"
+                            android:padding="10dp"
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:background="@drawable/mask_rectangulo_padre">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="2. Involucrarse y comprometerse con el rendimiento académico y  comportamiento de sus hijos y participar en las acciones de mejoramiento Institucional."
+                                    android:padding="10dp"
+                                    android:textColor="#ffffff"
+
+                                    />
+                            </LinearLayout>
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_padre3"
+                            android:background="@drawable/mask_circulo_padre"
+                            android:padding="10dp"
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:background="@drawable/mask_rectangulo_padre">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="4. Buscar y recibir orientación sobre la educación de los hijos"
+                                    android:padding="10dp"
+                                    android:textColor="#ffffff"
+
+                                    />
+                            </LinearLayout>
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_padre4"
+                            android:background="@drawable/mask_circulo_padre"
+                            android:padding="10dp"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:background="@drawable/mask_rectangulo_padre">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="4. Contribuir solidariamente con la institución educativa para la formación de sus hijos, educándolos y proporcionándoles en el hogar el ambiente adecuado para su desarrollo integral.           "
+                                    android:padding="10dp"
+                                    android:textColor="#ffffff"
+
+                                    />
+                            </LinearLayout>
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_icon5"
+                            android:background="@drawable/mask_circulo_padre"
+                            android:padding="10dp"
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:background="@drawable/mask_rectangulo_padre">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="5. Los padres de familia y/o acudientes se deben caracterizar por ser responsables, respetuosos,  colaboradores, leales, puntuales, con visión futurista - prospectiva, amable, emprendedora, líder, autónomo, honrado, sincero y crítico, tolerante, comprometido y utilizando el diálogo como un medio de comunicación para que haya entendimiento entre todos los miembros de la comunidad educativa."
+                                    android:padding="10dp"
+                                    android:textColor="#ffffff"
+
+                                    />
+                            </LinearLayout>
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

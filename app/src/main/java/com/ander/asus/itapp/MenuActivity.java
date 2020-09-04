@@ -25,7 +25,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void ingresarCalendario(View view) {
-        Intent i = new Intent(this, Calendario.class );
+        Intent i = new Intent(this, EventoActivity.class );
         startActivity(i);
     }
 

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DiagnosticoActivity"></activity>
+        <activity android:name=".EventoDetalleActivity"></activity>
+        <activity android:name=".EventoActivity" />
+        <activity android:name=".Estudiante_estudiante_Activity" />
+        <activity android:name=".FuncionarioActivity" />
+        <activity android:name=".PadreActivity" />
+        <activity android:name=".DocenteActivity" />
+        <activity android:name=".DiagnosticoActivity" />
         <activity android:name=".EstudianteActivity" />
         <activity android:name=".PerfilActivity" />
         <activity android:name=".ManualActivity" />

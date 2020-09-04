@@ -20,6 +20,18 @@ public class PerfilActivity extends AppCompatActivity {
         Intent i = new Intent(this, EstudianteActivity.class );
         startActivity(i);
     }
+    public void llamarDocente(View view) {
+        Intent i = new Intent(this, DocenteActivity.class );
+        startActivity(i);
+    }
+    public void llamarPadre(View view) {
+        Intent i = new Intent(this, PadreActivity.class );
+        startActivity(i);
+    }
+    public void llamarAdministrativo(View view) {
+        Intent i = new Intent(this, FuncionarioActivity.class );
+        startActivity(i);
+    }
 
 
 

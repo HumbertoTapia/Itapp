@@ -79,6 +79,7 @@
                 android:id="@+id/cv_diagnostico1"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                    android:onClick="llamarEstudiateEstudiante"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 app:cardCornerRadius="10dp">
