@@ -12,4 +12,6 @@
     <color name="color_item_manual_6">#673AB7</color>
     <color name="color_item_manual_7">#9C27B0</color>
     <color name="texto_menu_manual">#ffffff</color>
+
+    <color name="blanco">#ffffff</color>
 </resources>
