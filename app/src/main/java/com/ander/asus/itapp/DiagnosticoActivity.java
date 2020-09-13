@@ -18,4 +18,16 @@ public class DiagnosticoActivity extends AppCompatActivity {
         Intent i = new Intent(this, Estudiante_estudiante_Activity.class );
         startActivity(i);
     }
+
+    public void llamarEstudiateDocente(View view) {
+        Intent i = new Intent(this, Estudiante_docente_Activity.class );
+        startActivity(i);
+    }
+
+    public void llamarDocenteEstudiante(View view) {
+        Intent i = new Intent(this, DocenteEstudianteActivity.class );
+        startActivity(i);
+    }
+
+
 }

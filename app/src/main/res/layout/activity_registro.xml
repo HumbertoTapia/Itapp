@@ -138,18 +138,18 @@
 
 
             </LinearLayout>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="40dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="15dp"
-                android:background="#FFAB40"
-                android:textColor="#ffffff"
+                android:layout_marginRight="40dp"
                 android:layout_marginBottom="10dp"
-                android:text="REGISTRAR"
+                android:background="#FFAB40"
                 android:onClick="mensajeRegistro"
-                />
+                android:text="REGISTRAR"
+                android:textColor="#ffffff" />
 
         </LinearLayout>
 

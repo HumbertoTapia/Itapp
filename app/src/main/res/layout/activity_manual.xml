@@ -102,6 +102,7 @@
                 android:id="@+id/cv_diagnostico"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:layout_margin="5dp"
                 android:onClick="llamardiagnostico"
                 app:cardCornerRadius="10dp">
@@ -133,11 +134,13 @@
                 android:id="@+id/cv_derechos_responsabilidades"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:layout_margin="5dp"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="llamarDerechos"
                     android:background="@color/color_item_manual_3"
                     android:orientation="horizontal"
                     >
@@ -251,7 +254,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:onClick="llamarPerfil"
+                android:onClick="llamarEstimulos"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -14,4 +14,9 @@
     <color name="texto_menu_manual">#ffffff</color>
 
     <color name="blanco">#ffffff</color>
+
+
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
 </resources>

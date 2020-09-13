@@ -8,10 +8,17 @@ import android.view.View;
 
 public class ManualActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manual);
+
+
+
+
+
     }
 
     public void llamarPerfil(View view) {
@@ -21,6 +28,15 @@ public class ManualActivity extends AppCompatActivity {
 
     public void llamardiagnostico(View view) {
         Intent i = new Intent(this, DiagnosticoActivity.class );
+        startActivity(i);
+    }
+    public void llamarEstimulos(View view) {
+        Intent i = new Intent(this, EstimulosActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarDerechos(View view) {
+        Intent i = new Intent(this, DerechosActivity.class );
         startActivity(i);
     }
 }

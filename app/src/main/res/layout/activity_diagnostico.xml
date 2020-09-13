@@ -116,6 +116,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:onClick="llamarEstudiateDocente"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="10dp">
 
@@ -150,6 +151,7 @@
                     android:id="@+id/cv_diagnostico3"
                     android:layout_width="0dp"
                     android:layout_weight="1"
+                    android:onClick="llamarDocenteEstudiante"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="10dp">

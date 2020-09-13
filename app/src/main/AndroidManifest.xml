@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EventoDetalleActivity"></activity>
+        <activity android:name=".DerechosRespDosActivity"></activity>
+        <activity android:name=".DerechoRespActivity" />
+        <activity android:name=".DerechosActivity" />
+        <activity android:name=".DocenteEstudianteActivity" />
+        <activity android:name=".EstimulosActivity" />
+        <activity android:name=".Estudiante_docente_Activity" />
+        <activity android:name=".EventoDetalleActivity" />
         <activity android:name=".EventoActivity" />
         <activity android:name=".Estudiante_estudiante_Activity" />
         <activity android:name=".FuncionarioActivity" />
