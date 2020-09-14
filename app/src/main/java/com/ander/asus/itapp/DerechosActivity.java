@@ -92,6 +92,11 @@ public class DerechosActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void llamarInfancia(View view) {
+        Intent i = new Intent(this, DerechosRespDosActivity.class );
+        startActivity(i);
+    }
+
 
 
 }
