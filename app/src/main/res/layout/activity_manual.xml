@@ -165,6 +165,7 @@
             <androidx.cardview.widget.CardView
             android:id="@+id/cv_pactos"
             android:layout_width="match_parent"
+                android:onClick="llamarPactoConvivencia"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             app:cardCornerRadius="10dp">
@@ -196,6 +197,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:onClick="llamarRutaAtencion"
                 app:cardCornerRadius="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -224,6 +226,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="llamarProtocolos"
                 android:layout_margin="5dp"
                             app:cardCornerRadius="10dp">
                 <LinearLayout

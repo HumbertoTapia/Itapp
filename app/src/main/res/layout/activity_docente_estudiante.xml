@@ -9,32 +9,40 @@
     tools:context=".DocenteEstudianteActivity">
 
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0">
-        <ImageView
+        android:layout_height="100dp"
+        android:background="@drawable/d1"
+        android:scaleType="centerCrop"
+        android:orientation="horizontal">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/banner_manual"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/banner_textura_diagnostico_verde"
             android:gravity="center"
-            android:padding="5dp"
-            android:text="DOCENTES-ESTUDIANTES"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:background="@drawable/sombra"
-            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
 
 
-            />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Docente - estudiante"
+                android:textColor="@color/blanco"
+                android:textStyle="bold"
+                android:textSize="20dp" />
 
-    </RelativeLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_ita" />
+        </LinearLayout>
+    </LinearLayout>
 
 
     <androidx.core.widget.NestedScrollView

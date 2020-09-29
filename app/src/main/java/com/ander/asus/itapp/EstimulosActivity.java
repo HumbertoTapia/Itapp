@@ -22,11 +22,30 @@ public class EstimulosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estimulos);
 
+        //recibir parametros
+        String titulo = getIntent().getExtras().getString("titulo");
+        String descripcion = getIntent().getExtras().getString("descripcion");
+        String descripcion2 = getIntent().getExtras().getString("descripcion2");
+        String descripcion3 = getIntent().getExtras().getString("descripcion3");
+        //String imagen = getIntent().getExtras().getString("imagen");
+
+        /*
+        int s;
+
+        if(imagen.equals("1")){
+            s= R.drawable.img_pactos1;
+        }else if(imagen.equals("2")){
+            s= R.drawable.img_pactos1;
+        }else if(imagen.equals("3")){
+            s= R.drawable.apodos;
+        }else {
+            s= R.drawable.ic_visto;
+        }*/
 
         models= new ArrayList<>();
-        models.add(new Model(R.drawable.cyberbull, "Cyberbullyn", "Diálogo sobre la resolución pacífica de conflictos "));
-        models.add(new Model(R.drawable.robo, "Robo utiles", "Diálogo sobre la resolución pacífica de conflictos "));
-        models.add(new Model(R.drawable.apodos, "apodos sobrenombre", "Talleres de orientación a la comunidad educativa sobre la importancia de llamar a las personas por su nombre."));
+        models.add(new Model(R.drawable.img_pactos1, titulo, descripcion));
+        models.add(new Model(R.drawable.img_pactos2, "Indicadores", descripcion2));
+        models.add(new Model(R.drawable.img_pactos3, "Frecuencia", descripcion3));
 
         adapter = new Adapter(models, this);
         viewPager = findViewById(R.id.viewPager);
@@ -44,7 +63,11 @@ public class EstimulosActivity extends AppCompatActivity {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 if (position < (adapter.getCount() -1)&& position < (colors.length) -1 ){
-                    viewPager.setBackgroundColor((Integer) argbEvaluator.evaluate(positionOffset, colors[position], colors[position + 1]));
+                    viewPager.setBackgroundColor(
+                            (Integer) argbEvaluator.evaluate(
+                                    positionOffset,
+                                    colors[position],
+                                    colors[position + 1]));
 
 
 

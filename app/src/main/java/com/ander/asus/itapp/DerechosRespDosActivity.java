@@ -38,10 +38,6 @@ public class DerechosRespDosActivity extends AppCompatActivity {
                 }
             }
         });
-
-
-
-
     }
 
 
@@ -49,6 +45,90 @@ public class DerechosRespDosActivity extends AppCompatActivity {
         Button btnSalir;
         LottieAnimationView lottieAnimationView = findViewById(R.id.animacion_nino);
         myDialog.setContentView(R.layout.alert_infancia_d1);
+        btnSalir = myDialog.findViewById(R.id.btn_salir);
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myDialog.dismiss();
+            }
+        });
+
+        myDialog.show();
+        lottieAnimationView.setSpeed(2);
+        lottieAnimationView.playAnimation();
+    }
+
+    public void mostrarInfanciaD2(View view) {
+        Button btnSalir;
+        LottieAnimationView lottieAnimationView = findViewById(R.id.animacion_nino);
+        myDialog.setContentView(R.layout.alert_infancia_d2);
+        btnSalir = myDialog.findViewById(R.id.btn_salir);
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myDialog.dismiss();
+            }
+        });
+
+        myDialog.show();
+        lottieAnimationView.setSpeed(2);
+        lottieAnimationView.playAnimation();
+    }
+
+    public void mostrarInfanciaD3(View view) {
+        Button btnSalir;
+        LottieAnimationView lottieAnimationView = findViewById(R.id.animacion_nino);
+        myDialog.setContentView(R.layout.alert_infancia_d3);
+        btnSalir = myDialog.findViewById(R.id.btn_salir);
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myDialog.dismiss();
+            }
+        });
+
+        myDialog.show();
+        lottieAnimationView.setSpeed(2);
+        lottieAnimationView.playAnimation();
+    }
+
+    public void mostrarInfanciaR1(View view) {
+        Button btnSalir;
+        LottieAnimationView lottieAnimationView = findViewById(R.id.animacion_nino);
+        myDialog.setContentView(R.layout.alert_infacia_r1);
+        btnSalir = myDialog.findViewById(R.id.btn_salir);
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myDialog.dismiss();
+            }
+        });
+
+        myDialog.show();
+        lottieAnimationView.setSpeed(2);
+        lottieAnimationView.playAnimation();
+    }
+
+    public void mostrarInfanciaR2(View view) {
+        Button btnSalir;
+        LottieAnimationView lottieAnimationView = findViewById(R.id.animacion_nino);
+        myDialog.setContentView(R.layout.alert_infancia_r2);
+        btnSalir = myDialog.findViewById(R.id.btn_salir);
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myDialog.dismiss();
+            }
+        });
+
+        myDialog.show();
+        lottieAnimationView.setSpeed(2);
+        lottieAnimationView.playAnimation();
+    }
+    public void mostrarInfanciaR3(View view) {
+        Button btnSalir;
+        LottieAnimationView lottieAnimationView = findViewById(R.id.animacion_nino);
+        myDialog.setContentView(R.layout.alert_infancia_r3);
         btnSalir = myDialog.findViewById(R.id.btn_salir);
         btnSalir.setOnClickListener(new View.OnClickListener() {
             @Override

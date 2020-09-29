@@ -29,5 +29,34 @@ public class DiagnosticoActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void llamarEstudianteAdministrativo(View view) {
+        Intent i = new Intent(this, EstudianteAdministrativoActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarAdministrativoEstudiante(View view) {
+        Intent i = new Intent(this, AdministrativoEstudianteActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarEstudianteDirectivo(View view) {
+        Intent i = new Intent(this, EstudianteDirectivoActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarDirectivoEstudiante(View view) {
+        Intent i = new Intent(this, Directivo_estudiante_Activity.class );
+        startActivity(i);
+    }
+
+    public void llamarPadreFamilia(View view) {
+        Intent i = new Intent(this, Padre_Familia_diag_Activity.class );
+        startActivity(i);
+    }
+
+    public void llamarOrdenGeneral(View view) {
+        Intent i = new Intent(this, Orden_General_Activity.class );
+        startActivity(i);
+    }
 
 }

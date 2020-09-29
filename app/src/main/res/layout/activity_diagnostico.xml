@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/banner_diagnostico"
+        android:background="@drawable/banner_textura_diagnostico_verde"
         android:gravity="bottom"
         android:orientation="horizontal">
 
@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/mask_banners"
-            android:gravity="bottom"
+            android:gravity="center"
             android:orientation="horizontal">
 
 
@@ -39,6 +39,7 @@
                 android:padding="5dp"
                 android:src="@drawable/logo_ita" />
         </LinearLayout>
+
     </LinearLayout>
 
 
@@ -57,18 +58,13 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#FF9800"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="5dp"
-                />
-            <TextView
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Relaciones de convivencia que se presenta al interior de la institucion"
+                android:layout_margin="5dp"
+                android:background="@drawable/mask_rectangulo_borde2"
                 android:gravity="center"
                 android:padding="10dp"
-                />
+                android:text="Relaciones de convivencia que se presenta al interior de la institucion"
+                 />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -200,7 +196,9 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:onClick="llamarEstudianteAdministrativo"
+                        >
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -235,6 +233,7 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
+                        android:onClick="llamarAdministrativoEstudiante"
                         android:layout_height="wrap_content">
 
                         <ImageView
@@ -270,6 +269,7 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
+                        android:onClick="llamarEstudianteDirectivo"
                         android:layout_height="wrap_content">
 
                         <ImageView
@@ -312,6 +312,7 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
+                        android:onClick="llamarDirectivoEstudiante"
                         android:layout_height="wrap_content">
 
                         <ImageView
@@ -347,6 +348,7 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
+                        android:onClick="llamarPadreFamilia"
                         android:layout_height="wrap_content">
 
                         <ImageView
@@ -382,6 +384,7 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
+                        android:onClick="llamarOrdenGeneral"
                         android:layout_height="wrap_content">
 
                         <ImageView

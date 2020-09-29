@@ -36,6 +36,7 @@ public class DerechosActivity extends AppCompatActivity {
         viewPagerAdapter.addFragment(new EstudianteFragment(), "Estudiante");
         viewPagerAdapter.addFragment(new DocenteFragment(), "Docente");
         viewPagerAdapter.addFragment(new PadresFragment(), "Padres de familia");
+        viewPagerAdapter.addFragment(new FuncionarioFragment(), "Funcionario");
 
         viewPager.setAdapter(viewPagerAdapter);
 
@@ -54,6 +55,10 @@ public class DerechosActivity extends AppCompatActivity {
                         imageView.setImageResource(R.drawable.docente);
                         break;
                     case 2:
+                        imageView.setImageResource(R.drawable.padredefamilia);
+                        break;
+
+                    case 3:
                         imageView.setImageResource(R.drawable.padredefamilia);
                         break;
 
@@ -94,6 +99,36 @@ public class DerechosActivity extends AppCompatActivity {
 
     public void llamarInfancia(View view) {
         Intent i = new Intent(this, DerechosRespDosActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarAdolescencia(View view) {
+        Intent i = new Intent(this, DerechoRespTresActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarDocenteDesecho(View view) {
+        Intent i = new Intent(this, DerechoRepDocActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarDocenteAdmi(View view) {
+        Intent i = new Intent(this, DerechoRepAmdActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarFamilia(View view) {
+        Intent i = new Intent(this, DerechoRepFsmiliaActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarAdministrativo(View view) {
+        Intent i = new Intent(this, AdministrativoActivity.class );
+        startActivity(i);
+    }
+
+    public void llamarServiciosGenerales(View view) {
+        Intent i = new Intent(this, ServiciosGeneralesActivity.class );
         startActivity(i);
     }
 

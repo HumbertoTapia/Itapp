@@ -39,4 +39,20 @@ public class ManualActivity extends AppCompatActivity {
         Intent i = new Intent(this, DerechosActivity.class );
         startActivity(i);
     }
+
+    public void llamarPactoConvivencia(View view) {
+        Intent i = new Intent(this, Pactos_convivencia_Activity.class );
+        startActivity(i);
+    }
+
+    public void llamarRutaAtencion(View view) {
+        Intent i = new Intent(this, Ruta_Atencion_Activity.class );
+        startActivity(i);
+    }
+    public void llamarProtocolos(View view) {
+        Intent i = new Intent(this, ProtocoloActivity.class );
+        startActivity(i);
+    }
+
+
 }

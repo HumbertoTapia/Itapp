@@ -10,14 +10,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/bannerperfil"
+        android:background="@drawable/banner_textura_diagnostico_verde"
         android:gravity="bottom"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/mask_banners"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -28,7 +27,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="ESTUDIANTE-DOCENTE"
+                android:text="Estudiante - Docente"
                 android:textColor="@color/blanco"
                 android:textStyle="bold"
                 android:textSize="20dp" />
