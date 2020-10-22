@@ -6,6 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ander.asus.itapp.calendario.EventoActivity;
+import com.ander.asus.itapp.institucional.InstitucionActivity;
+import com.ander.asus.itapp.manual.ManualActivity;
+import com.ander.asus.itapp.test.MenuTestActivity;
+import com.ander.asus.itapp.tips.MenuTips;
+
 public class MenuActivity extends AppCompatActivity {
 
     @Override
@@ -20,7 +26,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void ingresarInstitucion(View view) {
-        Intent i = new Intent(this, Institucion.class );
+        Intent i = new Intent(this, InstitucionActivity.class );
         startActivity(i);
     }
 
@@ -32,6 +38,11 @@ public class MenuActivity extends AppCompatActivity {
     //Metodo que llama a la activity Manual de Convivencia
     public void ingresarManual(View view) {
         Intent i = new Intent(this, ManualActivity.class );
+        startActivity(i);
+    }
+
+    public void ingresarTest(View view) {
+        Intent i = new Intent(this, MenuTestActivity.class );
         startActivity(i);
     }
 

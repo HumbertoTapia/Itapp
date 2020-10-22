@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ander.asus.itapp.login.Registro;
+
 public class MainActivity extends AppCompatActivity {
 
 

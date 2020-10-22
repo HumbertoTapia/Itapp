@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo_derechos"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".DocenteFragment">
+    tools:context=".manual.derechos.fragments.DocenteFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

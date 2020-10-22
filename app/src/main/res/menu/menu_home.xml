@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_inicio"
+        android:icon="@drawable/ic_ruta1"
+        android:title="Tipo - I" />
+    <item
+        android:id="@+id/menu_promo"
+        android:icon="@drawable/ic_ruta1"
+        android:title="Tipo - II" />
+
+    <item
+        android:id="@+id/menu_ordenes"
+        android:icon="@drawable/ic_ruta1"
+        android:title="Tipo - III" />
+
+</menu>

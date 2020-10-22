@@ -123,6 +123,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:onClick="ingresarTest"
                         android:orientation="vertical">
                         <ImageView
                             android:layout_width="100dp"
@@ -209,12 +210,12 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/ic_ayuda"/>
+                            android:src="@drawable/pdf"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="AYUDA"/>
+                            android:text="PDF"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>

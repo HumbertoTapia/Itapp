@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Padre_Familia_diag_Activity">
+    tools:context=".manual.perfiles.activitys.Padre_Familia_diag_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"

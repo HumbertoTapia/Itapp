@@ -5,41 +5,34 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Ruta_Atencion_Activity">
+    tools:context=".manual.ruta.Ruta_Atencion_Activity">
 
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/fl_menu"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@drawable/d1"
-        android:orientation="horizontal"
-        android:scaleType="centerCrop">
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
-        <LinearLayout
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_admin_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="false">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnv_menu"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/banner_robo"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:background="#00897B"
+            app:itemIconTint="#ffffff"
+            app:itemTextColor="#ffffff"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/menu_home" />
 
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:padding="5dp"
-                android:text="RUTA DE ATENCION"
-                android:textColor="@color/blanco"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_gravity="center"
-                android:padding="5dp"
-                android:src="@drawable/logo_ita" />
-        </LinearLayout>
-    </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>

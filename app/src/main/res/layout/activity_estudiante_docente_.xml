@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Estudiante_docente_Activity">
+    tools:context=".manual.perfiles.activitys.Estudiante_docente_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"

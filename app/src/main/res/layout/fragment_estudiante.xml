@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_derechos"
-    tools:context=".EstudianteFragment">
+    tools:context=".manual.derechos.fragments.EstudianteFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

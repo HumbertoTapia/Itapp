@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".DerechoRespTresActivity">
+    tools:context=".manual.derechos.activitys.DerechoRespTresActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
