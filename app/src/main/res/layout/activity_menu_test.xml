@@ -153,6 +153,7 @@
                     android:layout_height="140dp"
                     android:src="@drawable/itemtest"
                     android:layout_margin="10dp"
+                    android:onClick="ingresarPrincipal"
                     />
 
                 <ImageView

@@ -9,6 +9,7 @@ import android.view.View;
 import com.ander.asus.itapp.calendario.EventoActivity;
 import com.ander.asus.itapp.institucional.InstitucionActivity;
 import com.ander.asus.itapp.manual.ManualActivity;
+import com.ander.asus.itapp.pdf.PdfActivity;
 import com.ander.asus.itapp.test.MenuTestActivity;
 import com.ander.asus.itapp.tips.MenuTips;
 
@@ -43,6 +44,11 @@ public class MenuActivity extends AppCompatActivity {
 
     public void ingresarTest(View view) {
         Intent i = new Intent(this, MenuTestActivity.class );
+        startActivity(i);
+    }
+
+    public void ingresarPdf(View view) {
+        Intent i = new Intent(this, PdfActivity.class );
         startActivity(i);
     }
 
